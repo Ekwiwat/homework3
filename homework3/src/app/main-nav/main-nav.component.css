@@ -1,0 +1,9 @@
+.nav-link {
+    /* text-decoration: none; */
+    color: #b8bac8;
+}
+
+.selected {
+    color: #08bdbd;
+    border-bottom: solid 2px #08bdbd;
+}

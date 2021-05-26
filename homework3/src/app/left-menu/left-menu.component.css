@@ -1,0 +1,31 @@
+body {
+    color: #b8bac8;
+}
+
+.ng-wrap {
+    color: #b8bac8;
+    text-decoration: none;
+    background-color: #21295c;
+}
+ngbPanelContent {
+    color: #b8bac8;
+    text-decoration: none;
+    background-color: #21295c;
+}
+.menu {
+    color: #b8bac8;
+    text-decoration: none;
+    background-color: #21295c;   
+}
+.sub-menu {
+    color: #b8bac8;
+    text-decoration: none;
+    background-color: #21295c;
+}
+a {
+    display: flex;
+    color: #b8bac8;
+    text-decoration: none;
+    background-color: #21295c;    
+}
+

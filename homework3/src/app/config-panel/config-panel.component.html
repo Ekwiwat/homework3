@@ -1,0 +1,13 @@
+<div class="config-container">
+    <h4 [id]="userMenu.name">{{userMenu.name}}</h4>
+    <div *ngFor="let s of userMenu.sub">
+        <h5 [id]="s">{{s}}</h5>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem, fugiat?</p>
+
+        <div class="input-group input-group-sm mb-3">
+
+            <input type="text" class="form-control" placeholder="settings" aria-label="Sizing example input"
+                aria-describedby="inputGroup-sizing-sm">
+        </div>
+    </div>
+</div>

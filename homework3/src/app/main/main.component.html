@@ -1,0 +1,20 @@
+<div class="top-wrap">
+    <app-search></app-search>
+    <app-main-nav (OnUserSelected)="userSelected()" (OnWorkplaceSelected)="wpSelect()"></app-main-nav>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-3">
+            <app-user-menu *ngIf="toggleUser"></app-user-menu>
+            <!-- <app-left-menu></app-left-menu> -->
+            <app-workplace-menu *ngIf="toggleWp"></app-workplace-menu>
+        </div>
+        <div class="col-9" *ngIf="toggleUser">
+            <app-config-panel *ngFor="let m of userMENU" [userMenu]="m"></app-config-panel>
+        </div>
+        <div class="col-9" *ngIf="toggleWp">
+            <app-config-panel *ngFor="let m of wpMENU" [userMenu]="m"></app-config-panel>
+        </div>
+    </div>
+
+</div>

@@ -1,0 +1,27 @@
+
+body {
+    background-color: #21295c;
+}
+
+.container {
+    width: 100%;
+    margin: 20px auto 20px auto;
+    /* margin-bottom: 20px; */
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-control {
+    background-color: #1b3b6f;
+    border-color: #065a82;
+}
+
+input[type=text]{
+    color: #9eb3c2;
+}
+
+::placeholder {
+    color: #9eb3c2;
+}

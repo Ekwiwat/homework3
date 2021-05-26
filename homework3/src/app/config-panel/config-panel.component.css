@@ -1,0 +1,30 @@
+.config-container {
+    margin-bottom: 25px;
+}
+h4 {
+    color: #08bdbd;
+    font-weight: 700;
+}
+h5 {
+    color: #08bdbd;
+}
+
+p {
+    color: #b8bac8;
+}
+.input-group {
+    width: 50%;
+}
+
+.form-control {
+    background-color: #1b3b6f;
+    border-color: #065a82;
+}
+
+input[type=text]{
+    color: #9eb3c2;
+}
+
+::placeholder {
+    color: #9eb3c2;
+}
